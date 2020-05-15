@@ -16,7 +16,7 @@ namespace MatBlazor
 
         public BaseMatTab()
         {
-            LabelContent = builder => { builder.AddContent(0, Label); };
+            LabelContent = builder => { builder.AddContent(0, new MarkupString(Label)); };
         }
     }
 }
